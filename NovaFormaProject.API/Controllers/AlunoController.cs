@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NovaFormaProject.Application.Dtos;
-using NovaFormaProject.Application.Services;
+using NovaFormaProject.Application.Dtos.Request;
+using NovaFormaProject.Application.Dtos.Response;
+using NovaFormaProject.Application.Services.AlunoUseCase;
 
 namespace NovaFormaProject.API.Controllers;
 

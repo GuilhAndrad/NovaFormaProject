@@ -1,4 +1,4 @@
-﻿namespace NovaFormaProject.Application.Dtos;
+﻿namespace NovaFormaProject.Application.Dtos.Response;
 public class AlunoResponseJson
 {
     public int ID { get; set; }

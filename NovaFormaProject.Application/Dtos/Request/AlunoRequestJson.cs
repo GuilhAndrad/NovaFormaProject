@@ -1,6 +1,6 @@
 ﻿using NovaFormaProject.Domain.DatabaseEntities;
 
-namespace NovaFormaProject.Application.Dtos;
+namespace NovaFormaProject.Application.Dtos.Request;
 public class AlunoRequestJson
 {
     public int ID { get; set; }

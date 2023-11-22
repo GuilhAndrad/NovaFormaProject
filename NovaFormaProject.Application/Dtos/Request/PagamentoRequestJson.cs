@@ -1,5 +1,5 @@
-﻿namespace NovaFormaProject.Application.Dtos;
-public class PagamentoResponseJson
+﻿namespace NovaFormaProject.Application.Dtos.Request;
+public class PagamentoRequestJson
 {
     public int ID { get; set; }
     public decimal Value { get; set; }

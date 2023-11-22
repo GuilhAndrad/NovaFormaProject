@@ -10,9 +10,7 @@ public class PagamentoMap : IEntityTypeConfiguration<Pagamento>
     public void Configure(EntityTypeBuilder<Pagamento> builder)
     {
         builder.Property(p => p.Value)
-                .HasPrecision(5, 2)
-                .IsRequired()
-                .HasMaxLength(7);
+            .IsRequired();
 
         builder.Property(p => p.DueDate)
                 .IsRequired();

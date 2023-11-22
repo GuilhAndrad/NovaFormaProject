@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace NovaFormaProject.Application.Services
+namespace NovaFormaProject.Application.Services.PagamentoUseCase
 {
     public class PagamentoUpdateService : IHostedService, IDisposable
     {
@@ -37,6 +37,8 @@ namespace NovaFormaProject.Application.Services
         public void Dispose()
         {
             _timer?.Dispose();
+            GC.SuppressFinalize(this);
         }
+
     }
 }

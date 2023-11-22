@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using NovaFormaProject.Application.Dtos;
+using NovaFormaProject.Application.Dtos.Request;
+using NovaFormaProject.Application.Dtos.Response;
 using NovaFormaProject.Application.ExceptionsBase;
 using NovaFormaProject.Application.Validations;
 using NovaFormaProject.Application.Validations.ResourcesMensagesError;
@@ -7,7 +8,7 @@ using NovaFormaProject.Domain.DatabaseEntities;
 using NovaFormaProject.Domain.DatabaseEntities.Enums;
 using NovaFormaProject.Domain.Interfaces.EntitiesRepositoryInterface;
 
-namespace NovaFormaProject.Application.Services;
+namespace NovaFormaProject.Application.Services.PagamentoUseCase;
 public class PagamentoServices
 {
     private readonly IUnitOfWork _unitOfWork;

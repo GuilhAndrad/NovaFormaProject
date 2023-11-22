@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using NovaFormaProject.Application.Dtos;
+using NovaFormaProject.Application.Dtos.Request;
 using NovaFormaProject.Application.Validations.ResourcesMensagesError;
 using NovaFormaProject.Domain.DatabaseEntities.Enums;
 

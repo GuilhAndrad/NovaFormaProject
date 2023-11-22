@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using NovaFormaProject.Application.Dtos;
+using NovaFormaProject.Application.Dtos.Request;
+using NovaFormaProject.Application.Dtos.Response;
 using NovaFormaProject.Domain.DatabaseEntities;
 
 namespace NovaFormaProject.Application.Extensions;
